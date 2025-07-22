@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiCalculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<h1>Calculator</h1>
+<body>
+      <div id="calculator">
+        <input id="display" aria-label="values">
+        <div id="keys">
+        <button onclick="clearinput()" class="total">C</button> 
+        <button onclick="sqrt()" class="operation">&#8730</button>
+        <button onclick="power()" class="operation">&#178</button>
+        <button onclick="values('/100')" class="operation">%</button>
+        <button onclick="values('7')">7</button>
+        <button onclick="values('8')">8</button>
+         <button onclick="values('9')">9</button>
+        <button onclick="values('*')" class="operation">x</button>
+        <button onclick="values('4')">4</button>
+        <button onclick="values('5')">5</button>
+        <button onclick="values('6')">6</button>
+        <button onclick="values('-')" class="operation">-</button>
+        <button onclick="values('1')">1</button>
+        <button onclick="values('2')">2</button>
+        <button onclick="values('3')">3</button>
+        <button onclick="values('+')" class="operation">+</button>
+        <button onclick="values('.')">.</button>
+        <button onclick="values('0')">0</button>
+        <button onclick="values('/')" class="operation">/</button>
+        
+        <button onclick="calculate()" class="total">=</button>
+    <script src="index.js"></script>
+</body>
+</html>
