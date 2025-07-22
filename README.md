@@ -1,14 +1,14 @@
 # calculator
 #### Date:July21 -2025
 
-- ** HTML file **
-Created an input box and buttons had numbers and arithmatic operations(+,-,*,/) and also symbols(=,%,.) and sqrt value,power values,
+- **HTML file**
+Created an input box,buttons had numbers and arithmatic operations(+,-,*,/) and also symbols(=,%,.),sqrt value,power values.
 If click buttons the values append in the input box.
 
-- ** CSS file **
+- **CSS file**
 Coloring the calculator
 
-- ** Js file **
+- **Js file**
 Values function -If button onclick value append in the input box -`inputid.value+=input`,
 Clear function -clear the inputbox values `inputid.value="";`,
 Total function - evaluate the values like do the operations `adding,subtract,multiple,division`,
