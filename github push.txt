@@ -1,9 +1,0 @@
-A.create a repository in the github-- copy the repo link
-
-B.vs code to  push the files :
-1) git init    --- initialization
-2) git add .\filename -- add files
-3)git commit -m "initial commit-calculator"  -- commit messages
-4)git remote add origin <copied repo link>
-5)git branch -M main -- main branch to add files
-6)git push -u origin main
